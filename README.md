@@ -1,4 +1,6 @@
 # CNN-based real-time Device Lifetime Estimation
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 The goal of the project is to predict the Remaining Useful Lifetime (RUL) of a device, based on the data collected from its sensors during a time series.
 The prediction is done using the `Conv1D-based` model.
 
