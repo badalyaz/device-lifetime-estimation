@@ -1,4 +1,4 @@
-# CNN-based real-time device lifetime estimation
+# CNN-based real-time Device Lifetime Estimation
 The goal of the project is to predict the Remaining Useful Time of a device, based on the data collected from its sensors during a time series.
 The prediction is done using the `Conv1D-based` model.
 
