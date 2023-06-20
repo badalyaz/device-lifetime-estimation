@@ -1,9 +1,9 @@
 # CNN-based real-time Device Lifetime Estimation
-The goal of the project is to predict the Remaining Useful Time of a device, based on the data collected from its sensors during a time series.
+The goal of the project is to predict the Remaining Useful Lifetime (RUL) of a device, based on the data collected from its sensors during a time series.
 The prediction is done using the `Conv1D-based` model.
 
 ## Dataset
-Train data includes Remaining Useful Lifetime (RUL) data from ~100 different devices, each with a unique id. A time series, with a number representing RUL for each moment of the time, is given under a single device ID. The subset of data (only id 14) is used as a training dataset. Our goal is to predict accurate RUL numbers for the time series of the test dataset. Before training or evaluation, data is normalized using min-max scaling.
+Train data includes Remaining Useful Lifetime data from ~100 different devices, each with a unique id. A time series, with a number representing RUL for each moment of the time, is given under a single device ID. The subset of data (only id 14) is used as a training dataset. Our goal is to predict accurate RUL numbers for the time series of the test dataset. Before training or evaluation, data is normalized using min-max scaling.
 
 The following plot represents the behavior of `detector1` on the first 20 IDs.
 <p align="center">
